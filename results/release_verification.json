@@ -1,0 +1,76 @@
+{
+  "analysis_environment_python": "3.12.14",
+  "checked_on": "2026-10-14",
+  "frozen_protocols_scripts_inputs_and_tokenizer_hashes_match": true,
+  "new_encoding_calls": 0,
+  "new_experiments": 0,
+  "note": {
+    "app_compiler": "Timed out; native compiler succeeded",
+    "author": "Zhijing Wu",
+    "compiler": "Installed MiKTeX 25.12, pdfTeX 1.40.28",
+    "overfull_boxes": 0,
+    "package_auto_install": false,
+    "pages": 2,
+    "pdf_sha256": "299c574ae69d105f863af1342402782bf398318b6c10091880ceea95bfe9b433",
+    "tex_sha256": "bf4dd5ca21b3f9018895c57bae73d935060f175cfeb03765050c360d9c70cd7f",
+    "visual_review": "Both final pages inspected at 150 dpi; legible text, table, figure and references; no clipping or overlap"
+  },
+  "numerical_snapshot_rows_not_excluded": true,
+  "original_audit_reports": 10,
+  "original_encoding_environment": {
+    "python": "3.13.5",
+    "tokenizers": "0.20.3"
+  },
+  "original_external_inventory_files": 921,
+  "original_pilot_paths_unchanged": 547,
+  "outreach_sent": false,
+  "prepared_wrapper_checks": {
+    "acquisition": "CLI checked; no asset body downloaded during release preparation",
+    "encoding_wrapper": "CLI/syntax checked only, not executed",
+    "scripts_syntax_checked": 8
+  },
+  "project_license": "MIT_FOR_ORIGINAL_INCLUDED_PROJECT_MATERIALS_SEE_NOTICE",
+  "publication": {
+    "owner": "ZhijingWu",
+    "repository_url": "https://github.com/ZhijingWu/superbpe-serialization-evaluation",
+    "verification_scope": "Repository creation and authenticated ownership confirmed; final pushed commit is recorded separately",
+    "visibility": "PUBLIC"
+  },
+  "release_analysis_replays_byte_identical": {
+    "external": [
+      "external_statistics.json",
+      "external_bootstrap_results.json",
+      "external_record_effects.csv",
+      "external_source_metrics.csv",
+      "external_paired_counts.csv",
+      "structure_sensitivity.csv"
+    ],
+    "synthetic": [
+      "primary_statistics.json",
+      "bootstrap_results.json",
+      "raw_token_counts.csv",
+      "sensitivity_results.csv",
+      "family_effects.csv"
+    ]
+  },
+  "source_recovery": {
+    "encoding_calls": 0,
+    "mode": "check-only using already-local original sources",
+    "new_input_files_written": 0,
+    "objects": 208,
+    "serialization_hashes": 832
+  },
+  "static_vocabulary_replay": {
+    "colon_space_types": {
+      "bpe200k": 0,
+      "no_whitespace200k": 893,
+      "superbpe_t180k": 0,
+      "superbpe_t80k": 0
+    },
+    "encoding_calls": 0
+  },
+  "status": "LOCAL_CONTENT_VERIFIED_REPOSITORY_CONFIRMED",
+  "synthetic_fixture_redistribution": "PRIVATE_BY_EXPLICIT_OWNER_DECISION",
+  "third_round": "ROUND3_CONDITIONAL_NOT_RUN",
+  "verification_scope": "Local content verification; publication identity and final commit recorded separately"
+}

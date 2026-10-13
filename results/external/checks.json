@@ -1,0 +1,47 @@
+{
+  "assets": {
+    "bpe200k": {
+      "adapter_hash_equals_pilot": true,
+      "asset_hash": true,
+      "deterministic_id_checks": 832,
+      "observations": 832,
+      "original_adapter_id_parity": 832,
+      "roundtrips": 832,
+      "token_byte_reconstructions": 832
+    },
+    "no_whitespace200k": {
+      "adapter_hash_equals_pilot": true,
+      "asset_hash": true,
+      "deterministic_id_checks": 832,
+      "observations": 832,
+      "original_adapter_id_parity": 832,
+      "roundtrips": 832,
+      "token_byte_reconstructions": 832
+    },
+    "superbpe_t180k": {
+      "adapter_hash_equals_pilot": true,
+      "asset_hash": true,
+      "deterministic_id_checks": 832,
+      "observations": 832,
+      "original_adapter_id_parity": 832,
+      "roundtrips": 832,
+      "token_byte_reconstructions": 832
+    },
+    "superbpe_t80k": {
+      "adapter_hash_equals_pilot": true,
+      "asset_hash": true,
+      "deterministic_id_checks": 832,
+      "observations": 832,
+      "original_adapter_id_parity": 832,
+      "roundtrips": 832,
+      "token_byte_reconstructions": 832
+    }
+  },
+  "baseline_pretoken_reconstructions": 832,
+  "fixture_hash_checks": 832,
+  "invalid_records": [],
+  "json_semantic_roundtrips": 832,
+  "observations": 3328,
+  "postfreeze_exclusions": [],
+  "status": "PASS"
+}

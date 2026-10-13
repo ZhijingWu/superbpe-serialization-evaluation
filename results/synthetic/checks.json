@@ -1,0 +1,50 @@
+{
+  "assets": {
+    "bpe200k": {
+      "adapter_encode_id_parity_passes": 480,
+      "asset_hash_pass": true,
+      "deterministic_passes": 480,
+      "records_checked": 480,
+      "roundtrip_passes": 480,
+      "token_byte_reconstruction_passes": 480,
+      "vocabulary_size": 200000
+    },
+    "no_whitespace200k": {
+      "adapter_encode_id_parity_passes": 480,
+      "asset_hash_pass": true,
+      "deterministic_passes": 480,
+      "records_checked": 480,
+      "roundtrip_passes": 480,
+      "token_byte_reconstruction_passes": 480,
+      "vocabulary_size": 200000
+    },
+    "superbpe_t180k": {
+      "adapter_encode_id_parity_passes": 480,
+      "asset_hash_pass": true,
+      "deterministic_passes": 480,
+      "records_checked": 480,
+      "roundtrip_passes": 480,
+      "token_byte_reconstruction_passes": 480,
+      "vocabulary_size": 200000
+    },
+    "superbpe_t80k": {
+      "adapter_encode_id_parity_passes": 480,
+      "asset_hash_pass": true,
+      "deterministic_passes": 480,
+      "records_checked": 480,
+      "roundtrip_passes": 480,
+      "token_byte_reconstruction_passes": 480,
+      "vocabulary_size": 200000
+    }
+  },
+  "development_observations": 320,
+  "encoding_observations": 1920,
+  "evaluation_observations": 1600,
+  "excluded_records": [],
+  "fixture_hash_passes": 480,
+  "fixture_manifest_unchanged": true,
+  "invalid_records": [],
+  "pretoken_byte_reconstruction_passes": 480,
+  "semantic_parse_roundtrips": 480,
+  "status": "PASS"
+}

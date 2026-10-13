@@ -1,0 +1,64 @@
+{
+  "assets": {
+    "bpe200k": {
+      "adapted_configuration_sha256": "43736e20ee379d2c1173d4aef4741ec281d701913c9fc1f0c814fd52b460c2e1",
+      "asset_directory": "olmo2_p99_truncate_pretok_10G_200K",
+      "core_vocab": 200000,
+      "model_training_corpus_not_bundled": true,
+      "original_is_crlf_checkout": true,
+      "original_windows_checkout_bytes": 15601283,
+      "original_windows_checkout_sha256": "feee49c51604f901a388a1c8fcf67231e17637729281a669e4ded351106c44b3",
+      "repository": "PythonNut/superbpe",
+      "revision": "bbd09768fc28a875cef48e6bdd66e3a17454628e",
+      "upstream_blob_bytes": 14602210,
+      "upstream_blob_sha256": "533a360b76128dc50b9a32f7fcefe38d71be275ebb9f8b3acf9b19d9af2262f7",
+      "url": "https://raw.githubusercontent.com/PythonNut/superbpe/bbd09768fc28a875cef48e6bdd66e3a17454628e/tokenizer_json/olmo2_p99_truncate_pretok_10G_200K/tokenizer.json"
+    },
+    "no_whitespace200k": {
+      "adapted_configuration_sha256": "19d026dad87b185e5c6f805d784ce06fb873773181d8923835694e5f341961d2",
+      "asset_directory": "olmo2_p99_truncate_nopretok_10G_200K_mw4_colon",
+      "core_vocab": 200000,
+      "model_training_corpus_not_bundled": true,
+      "original_is_crlf_checkout": true,
+      "original_windows_checkout_bytes": 16569144,
+      "original_windows_checkout_sha256": "753cffa03b80d4e6564037543764ab3bc80b33e5a00e772ba3bdfce6ac318ea6",
+      "repository": "PythonNut/superbpe",
+      "revision": "bbd09768fc28a875cef48e6bdd66e3a17454628e",
+      "upstream_blob_bytes": 15570071,
+      "upstream_blob_sha256": "a5a3dc5cd3096355cbc8f141f929093f5ce2522825512a4b5ecc58214b3ee91f",
+      "url": "https://raw.githubusercontent.com/PythonNut/superbpe/bbd09768fc28a875cef48e6bdd66e3a17454628e/tokenizer_json/olmo2_p99_truncate_nopretok_10G_200K_mw4_colon/tokenizer.json"
+    },
+    "superbpe_t180k": {
+      "adapted_configuration_sha256": "c1762bbb0ccde9dd90b78d42fda5a3424eb1b65fe028e759681f477e5dc23e12",
+      "asset_directory": "olmo2_p99_truncate_10G_180K_extend_200K_mw4_colon",
+      "core_vocab": 200000,
+      "model_training_corpus_not_bundled": true,
+      "original_is_crlf_checkout": true,
+      "original_windows_checkout_bytes": 15746065,
+      "original_windows_checkout_sha256": "f6bdcb546e59d71722f97fc92ab73c79f7dc1cab5a571c079e1ed0944813f5f6",
+      "repository": "PythonNut/superbpe",
+      "revision": "bbd09768fc28a875cef48e6bdd66e3a17454628e",
+      "upstream_blob_bytes": 14746941,
+      "upstream_blob_sha256": "c59b266e1dc9a768b2d69493c3f6eb3e46db7deb723411c958fe65ee06c28533",
+      "url": "https://raw.githubusercontent.com/PythonNut/superbpe/bbd09768fc28a875cef48e6bdd66e3a17454628e/tokenizer_json/olmo2_p99_truncate_10G_180K_extend_200K_mw4_colon/tokenizer.json"
+    },
+    "superbpe_t80k": {
+      "adapted_configuration_sha256": "45c9526bb8eb797a9a5c726935198cf2c4281018175a851590420b08b80a2192",
+      "asset_directory": "olmo2_p99_truncate_10G_80K_extend_200K_mw4_colon",
+      "core_vocab": 200000,
+      "model_training_corpus_not_bundled": true,
+      "original_is_crlf_checkout": true,
+      "original_windows_checkout_bytes": 16746213,
+      "original_windows_checkout_sha256": "b62a5aec48b3e0e73151bfd057a196da068f9770a83f5d145fe1d1e82a070262",
+      "repository": "PythonNut/superbpe",
+      "revision": "bbd09768fc28a875cef48e6bdd66e3a17454628e",
+      "upstream_blob_bytes": 15747089,
+      "upstream_blob_sha256": "0a9b5dda03c25cd1dbc2c44b48695694548f4a921b13b3a092c0e1be355cd608",
+      "url": "https://raw.githubusercontent.com/PythonNut/superbpe/bbd09768fc28a875cef48e6bdd66e3a17454628e/tokenizer_json/olmo2_p99_truncate_10G_80K_extend_200K_mw4_colon/tokenizer.json"
+    }
+  },
+  "line_ending_note": "Git raw LF bytes differ from original Windows CRLF checkout; both hashes retained. Parsed configurations and derivative hashes are identical. Do not compare raw-download hash to checkout hash.",
+  "python": "3.13.5",
+  "repository_revision": "bbd09768fc28a875cef48e6bdd66e3a17454628e",
+  "tokenizers": "0.20.3"
+}

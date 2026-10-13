@@ -1,0 +1,15 @@
+# Preserve measured evidence bytes independently of the clone platform.
+* -text
+* whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.py text eol=lf
+*.md text eol=lf
+*.tex text eol=lf
+*.txt text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+results/** -text
+configs/** -text
+*.csv -text
+*.json -text
+*.png -text
+*.pdf -text

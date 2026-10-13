@@ -1,0 +1,486 @@
+{
+  "aligned_region_colon_accounting": [
+    {
+      "format": "compact",
+      "other_region_net_gap": -1593,
+      "other_regions": 7127,
+      "source": "a2a"
+    },
+    {
+      "colon_space_region_net_gap": 1588,
+      "colon_space_regions": 1411,
+      "format": "indent2",
+      "other_region_net_gap": 529,
+      "other_regions": 7047,
+      "source": "a2a"
+    },
+    {
+      "colon_space_region_net_gap": 974,
+      "colon_space_regions": 1394,
+      "format": "spaced",
+      "other_region_net_gap": -170,
+      "other_regions": 5279,
+      "source": "a2a"
+    },
+    {
+      "colon_space_region_net_gap": 1812,
+      "colon_space_regions": 1411,
+      "format": "tab",
+      "other_region_net_gap": 1542,
+      "other_regions": 7452,
+      "source": "a2a"
+    },
+    {
+      "format": "compact",
+      "other_region_net_gap": -1574,
+      "other_regions": 7109,
+      "source": "mcp"
+    },
+    {
+      "colon_space_region_net_gap": 1710,
+      "colon_space_regions": 1440,
+      "format": "indent2",
+      "other_region_net_gap": 599,
+      "other_regions": 6984,
+      "source": "mcp"
+    },
+    {
+      "colon_space_region_net_gap": 929,
+      "colon_space_regions": 1410,
+      "format": "spaced",
+      "other_region_net_gap": -80,
+      "other_regions": 5333,
+      "source": "mcp"
+    },
+    {
+      "colon_space_region_net_gap": 1939,
+      "colon_space_regions": 1440,
+      "format": "tab",
+      "other_region_net_gap": 1247,
+      "other_regions": 7517,
+      "source": "mcp"
+    },
+    {
+      "format": "compact",
+      "other_region_net_gap": 4,
+      "other_regions": 412,
+      "source": "sweagent"
+    },
+    {
+      "colon_space_region_net_gap": 37,
+      "colon_space_regions": 39,
+      "format": "indent2",
+      "other_region_net_gap": 26,
+      "other_regions": 432,
+      "source": "sweagent"
+    },
+    {
+      "colon_space_region_net_gap": 37,
+      "colon_space_regions": 39,
+      "format": "spaced",
+      "other_region_net_gap": 19,
+      "other_regions": 366,
+      "source": "sweagent"
+    },
+    {
+      "colon_space_region_net_gap": 37,
+      "colon_space_regions": 39,
+      "format": "tab",
+      "other_region_net_gap": 26,
+      "other_regions": 432,
+      "source": "sweagent"
+    }
+  ],
+  "emitted_feature_counts": [
+    {
+      "colon_space_tokens": 0,
+      "format": "compact",
+      "source": "a2a",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "bpe200k"
+    },
+    {
+      "colon_space_tokens": 1,
+      "format": "compact",
+      "source": "a2a",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "no_whitespace200k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "compact",
+      "source": "a2a",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t180k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "compact",
+      "source": "a2a",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t80k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "indent2",
+      "source": "a2a",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "bpe200k"
+    },
+    {
+      "colon_space_tokens": 1412,
+      "format": "indent2",
+      "source": "a2a",
+      "structural_colon_space_tokens": 1411,
+      "tokenizer": "no_whitespace200k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "indent2",
+      "source": "a2a",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t180k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "indent2",
+      "source": "a2a",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t80k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "spaced",
+      "source": "a2a",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "bpe200k"
+    },
+    {
+      "colon_space_tokens": 1412,
+      "format": "spaced",
+      "source": "a2a",
+      "structural_colon_space_tokens": 1411,
+      "tokenizer": "no_whitespace200k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "spaced",
+      "source": "a2a",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t180k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "spaced",
+      "source": "a2a",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t80k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "tab",
+      "source": "a2a",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "bpe200k"
+    },
+    {
+      "colon_space_tokens": 1412,
+      "format": "tab",
+      "source": "a2a",
+      "structural_colon_space_tokens": 1411,
+      "tokenizer": "no_whitespace200k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "tab",
+      "source": "a2a",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t180k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "tab",
+      "source": "a2a",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t80k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "compact",
+      "source": "mcp",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "bpe200k"
+    },
+    {
+      "colon_space_tokens": 50,
+      "format": "compact",
+      "source": "mcp",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "no_whitespace200k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "compact",
+      "source": "mcp",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t180k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "compact",
+      "source": "mcp",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t80k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "indent2",
+      "source": "mcp",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "bpe200k"
+    },
+    {
+      "colon_space_tokens": 1490,
+      "format": "indent2",
+      "source": "mcp",
+      "structural_colon_space_tokens": 1440,
+      "tokenizer": "no_whitespace200k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "indent2",
+      "source": "mcp",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t180k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "indent2",
+      "source": "mcp",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t80k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "spaced",
+      "source": "mcp",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "bpe200k"
+    },
+    {
+      "colon_space_tokens": 1490,
+      "format": "spaced",
+      "source": "mcp",
+      "structural_colon_space_tokens": 1440,
+      "tokenizer": "no_whitespace200k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "spaced",
+      "source": "mcp",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t180k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "spaced",
+      "source": "mcp",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t80k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "tab",
+      "source": "mcp",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "bpe200k"
+    },
+    {
+      "colon_space_tokens": 1490,
+      "format": "tab",
+      "source": "mcp",
+      "structural_colon_space_tokens": 1440,
+      "tokenizer": "no_whitespace200k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "tab",
+      "source": "mcp",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t180k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "tab",
+      "source": "mcp",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t80k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "compact",
+      "source": "sweagent",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "bpe200k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "compact",
+      "source": "sweagent",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "no_whitespace200k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "compact",
+      "source": "sweagent",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t180k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "compact",
+      "source": "sweagent",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t80k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "indent2",
+      "source": "sweagent",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "bpe200k"
+    },
+    {
+      "colon_space_tokens": 39,
+      "format": "indent2",
+      "source": "sweagent",
+      "structural_colon_space_tokens": 39,
+      "tokenizer": "no_whitespace200k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "indent2",
+      "source": "sweagent",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t180k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "indent2",
+      "source": "sweagent",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t80k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "spaced",
+      "source": "sweagent",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "bpe200k"
+    },
+    {
+      "colon_space_tokens": 39,
+      "format": "spaced",
+      "source": "sweagent",
+      "structural_colon_space_tokens": 39,
+      "tokenizer": "no_whitespace200k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "spaced",
+      "source": "sweagent",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t180k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "spaced",
+      "source": "sweagent",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t80k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "tab",
+      "source": "sweagent",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "bpe200k"
+    },
+    {
+      "colon_space_tokens": 39,
+      "format": "tab",
+      "source": "sweagent",
+      "structural_colon_space_tokens": 39,
+      "tokenizer": "no_whitespace200k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "tab",
+      "source": "sweagent",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t180k"
+    },
+    {
+      "colon_space_tokens": 0,
+      "format": "tab",
+      "source": "sweagent",
+      "structural_colon_space_tokens": 0,
+      "tokenizer": "superbpe_t80k"
+    }
+  ],
+  "interpretation": "Colon-space membership and region accounting are observational refinements, not preregistered additional hypothesis tests or proof of causal mediation. Tokenizer directory suffixes are not guarantees of identical training constraints.",
+  "inventory": {
+    "bpe200k": {
+      "asset_sha256": "feee49c51604f901a388a1c8fcf67231e17637729281a669e4ded351106c44b3",
+      "core_vocab": 200000,
+      "feature_type_counts": {
+        "colon_ascii_space": 0,
+        "internal_ascii_space": 202,
+        "json_punctuation": 1835,
+        "newline": 75,
+        "tab": 51
+      }
+    },
+    "no_whitespace200k": {
+      "asset_sha256": "753cffa03b80d4e6564037543764ab3bc80b33e5a00e772ba3bdfce6ac318ea6",
+      "core_vocab": 200000,
+      "feature_type_counts": {
+        "colon_ascii_space": 893,
+        "internal_ascii_space": 97181,
+        "json_punctuation": 16739,
+        "newline": 9068,
+        "tab": 110
+      }
+    },
+    "superbpe_t180k": {
+      "asset_sha256": "f6bdcb546e59d71722f97fc92ab73c79f7dc1cab5a571c079e1ed0944813f5f6",
+      "core_vocab": 200000,
+      "feature_type_counts": {
+        "colon_ascii_space": 0,
+        "internal_ascii_space": 16502,
+        "json_punctuation": 4237,
+        "newline": 1266,
+        "tab": 60
+      }
+    },
+    "superbpe_t80k": {
+      "asset_sha256": "b62a5aec48b3e0e73151bfd057a196da068f9770a83f5d145fe1d1e82a070262",
+      "core_vocab": 200000,
+      "feature_type_counts": {
+        "colon_ascii_space": 0,
+        "internal_ascii_space": 93465,
+        "json_punctuation": 16402,
+        "newline": 9198,
+        "tab": 122
+      }
+    }
+  },
+  "no_model_changes": true,
+  "no_new_intervention": true,
+  "no_new_tokenization": true,
+  "planned_before_counts": false,
+  "rationale": "Saved partitions exposed a no-whitespace complete token containing colon-space; verify the known paper constraint and inspect all four fixed vocabularies",
+  "script_sha256": "8879528c18b471464c8c21186680028b0c4a7aeb93a56346d2e062eb1f1c4f0f",
+  "status": "DESCRIPTIVE_POST_COUNT_MODEL_INSPECTION"
+}

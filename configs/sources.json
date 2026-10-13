@@ -1,0 +1,164 @@
+{
+  "access_date": "2026-10-13",
+  "all_sources_public": true,
+  "candidate_objects": 245,
+  "conversation_policy": "No role:user or other conversation message, prompt, thought, response or observation is an evaluation object; complete trajectory bodies are not redistributed",
+  "downloaded_selected_source_body_bytes": 506856,
+  "duplicates": 37,
+  "no_paid_access": true,
+  "selected_objects": 208,
+  "selection_exclusions": 2,
+  "sources": {
+    "a2a": {
+      "kind": "released_protocol_schema",
+      "license": "Apache-2.0",
+      "license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "license_url": "https://raw.githubusercontent.com/a2aproject/A2A/8d57eba286de756176892518a8fc39b0ac2ccefb/LICENSE",
+      "raw_downloads": [
+        {
+          "accessed_at_utc": "2026-10-13T15:48:02.886838+00:00",
+          "bytes": 103940,
+          "content_length": "103940",
+          "data_kind": "protocol_schema",
+          "label": "a2a_schema.json",
+          "sha256": "97d6e2435336836cd1d41dffacf83a1a97902b62b826ef14ec5704db85c95f17",
+          "url": "https://raw.githubusercontent.com/a2aproject/A2A/8d57eba286de756176892518a8fc39b0ac2ccefb/specification/json/a2a.json"
+        }
+      ],
+      "repository": "a2aproject/A2A",
+      "revision": "8d57eba286de756176892518a8fc39b0ac2ccefb",
+      "selected_clusters": [
+        "a2a/agent_cards",
+        "a2a/common_types",
+        "a2a/content_messages",
+        "a2a/errors",
+        "a2a/requests",
+        "a2a/responses",
+        "a2a/security_schemes",
+        "a2a/tasks_artifacts"
+      ],
+      "selected_kinds": {
+        "protocol_schema_fragment": 93
+      },
+      "selected_objects": 93,
+      "source_path": "specification/json/a2a.json",
+      "version": "v0.3.0"
+    },
+    "mcp": {
+      "kind": "released_protocol_schema",
+      "license": "Apache-2.0 / retained MIT contributions under explicit transition notice; both permissive",
+      "license_sha256": "0382b0057770ca05e9c350a50aa3b1c1fea84da0bc81d723bf00b9aa841be58a",
+      "license_url": "https://raw.githubusercontent.com/modelcontextprotocol/modelcontextprotocol/3778656b2e0ba6725035e816fe3085374cbaa736/LICENSE",
+      "raw_downloads": [
+        {
+          "accessed_at_utc": "2026-10-13T15:46:40.690924+00:00",
+          "bytes": 108234,
+          "content_length": "108234",
+          "data_kind": "protocol_schema",
+          "label": "mcp_schema.json",
+          "path": "schema/2025-06-18/schema.json",
+          "revision": "3778656b2e0ba6725035e816fe3085374cbaa736",
+          "sha256": "af845e7e5b9d27107d1690f0936022546177a1403e63ffb11470135b296a2e01",
+          "status": "PASS",
+          "url": "https://raw.githubusercontent.com/modelcontextprotocol/modelcontextprotocol/3778656b2e0ba6725035e816fe3085374cbaa736/schema/2025-06-18/schema.json"
+        }
+      ],
+      "repository": "modelcontextprotocol/modelcontextprotocol",
+      "revision": "3778656b2e0ba6725035e816fe3085374cbaa736",
+      "selected_clusters": [
+        "mcp/capabilities",
+        "mcp/common_types",
+        "mcp/content_messages",
+        "mcp/errors",
+        "mcp/input_schemas",
+        "mcp/notifications",
+        "mcp/requests",
+        "mcp/resources",
+        "mcp/results",
+        "mcp/tool_types"
+      ],
+      "selected_kinds": {
+        "protocol_schema_fragment": 91
+      },
+      "selected_objects": 91,
+      "source_path": "schema/2025-06-18/schema.json",
+      "version": "2025-06-18"
+    },
+    "sweagent": {
+      "kind": "published_agent_tool_arguments_and_execution_state",
+      "license": "MIT",
+      "license_sha256": "7610ed3916f6674e34b78417894abd57ff538b3cfdda3085e3643d82acbaf31f",
+      "license_url": "https://raw.githubusercontent.com/SWE-agent/SWE-agent/3ea751c087f32b16e039a2233dd6eefecef325d5/LICENSE",
+      "raw_downloads": [
+        {
+          "accessed_at_utc": "2026-10-13T15:46:41.441286+00:00",
+          "bytes": 30693,
+          "content_length": "30693",
+          "data_kind": "conversation-containing original; acquire only in ignored private cache",
+          "label": "swe_0.traj",
+          "path": "tests/test_data/trajectories/gpt4__swe-agent-test-repo__default_from_url__t-0.00__p-0.95__c-3.00__install-1/6e44b9__sweagenttestrepo-1c2844.traj",
+          "revision": "3ea751c087f32b16e039a2233dd6eefecef325d5",
+          "sha256": "dd79a193908492a51f532269ee126f3600da98b84551e2bdc1adacc7bf29ad67",
+          "status": "PASS",
+          "url": "https://raw.githubusercontent.com/SWE-agent/SWE-agent/3ea751c087f32b16e039a2233dd6eefecef325d5/tests/test_data/trajectories/gpt4__swe-agent-test-repo__default_from_url__t-0.00__p-0.95__c-3.00__install-1/6e44b9__sweagenttestrepo-1c2844.traj"
+        },
+        {
+          "accessed_at_utc": "2026-10-13T15:46:42.889120+00:00",
+          "bytes": 51540,
+          "content_length": "51540",
+          "data_kind": "conversation-containing original; acquire only in ignored private cache",
+          "label": "swe_1.traj",
+          "path": "tests/test_data/trajectories/gpt4__swe-agent__test-repo__default_from_url__t-0.00__p-0.95__c-3.00__install-1/swe-agent__test-repo-i1.traj",
+          "revision": "3ea751c087f32b16e039a2233dd6eefecef325d5",
+          "sha256": "37894da0658b71c3ffc37fcecad550386159e841d4aa8a82bfe6a12bd46589d1",
+          "status": "PASS",
+          "url": "https://raw.githubusercontent.com/SWE-agent/SWE-agent/3ea751c087f32b16e039a2233dd6eefecef325d5/tests/test_data/trajectories/gpt4__swe-agent__test-repo__default_from_url__t-0.00__p-0.95__c-3.00__install-1/swe-agent__test-repo-i1.traj"
+        },
+        {
+          "accessed_at_utc": "2026-10-13T15:46:43.634696+00:00",
+          "bytes": 11640,
+          "content_length": "11640",
+          "data_kind": "conversation-containing original; acquire only in ignored private cache",
+          "label": "swe_2.traj",
+          "path": "trajectories/demonstrations/function_calling_simple.traj",
+          "revision": "3ea751c087f32b16e039a2233dd6eefecef325d5",
+          "sha256": "b75b7744217bd5e91e6be8f39f17e8a215429be9d57b2d7ef1ff4c6787375d9f",
+          "status": "PASS",
+          "url": "https://raw.githubusercontent.com/SWE-agent/SWE-agent/3ea751c087f32b16e039a2233dd6eefecef325d5/trajectories/demonstrations/function_calling_simple.traj"
+        },
+        {
+          "accessed_at_utc": "2026-10-13T15:50:15.984016+00:00",
+          "bytes": 100262,
+          "content_length": "100262",
+          "data_kind": "conversation-containing original; acquire only in ignored private cache",
+          "label": "swe_3.traj",
+          "sha256": "c2ca395c37f23e8f1b603b3f27dc7557eb9216d35b695fd458e601a526b70366",
+          "status": "PASS",
+          "url": "https://raw.githubusercontent.com/SWE-agent/SWE-agent/3ea751c087f32b16e039a2233dd6eefecef325d5/trajectories/demonstrations/replay__marshmallow-code__marshmallow-1867__function_calling__install-1/marshmallow-code__marshmallow-1867.traj"
+        },
+        {
+          "accessed_at_utc": "2026-10-13T15:50:17.110969+00:00",
+          "bytes": 100547,
+          "content_length": "100547",
+          "data_kind": "conversation-containing original; acquire only in ignored private cache",
+          "label": "swe_4.traj",
+          "sha256": "446e76ce113eb8e3a12f264a5015d9f475f6e502201421d51a883b8b05ca8470",
+          "status": "PASS",
+          "url": "https://raw.githubusercontent.com/SWE-agent/SWE-agent/3ea751c087f32b16e039a2233dd6eefecef325d5/trajectories/demonstrations/replay__marshmallow-code__marshmallow-1867__function_calling_replace__install-1/marshmallow-code__marshmallow-1867.traj"
+        }
+      ],
+      "repository": "SWE-agent/SWE-agent",
+      "revision": "3ea751c087f32b16e039a2233dd6eefecef325d5",
+      "selected_clusters": [
+        "sweagent/marshmallow_issue_1867",
+        "sweagent/missing_colon_test_task"
+      ],
+      "selected_kinds": {
+        "execution_state": 6,
+        "tool_arguments": 18
+      },
+      "selected_objects": 24,
+      "version": "pinned published demonstrations/test fixtures"
+    }
+  }
+}

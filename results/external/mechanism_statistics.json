@@ -1,0 +1,1010 @@
+{
+  "causality": "Conserved local token-gap accounting is observational. Identical inference splitting rules rule out differing inference pretokenizer configurations; different learned vocabularies/merge paths are not independently randomized.",
+  "classes": [
+    "structural_only",
+    "mixed_structural_newline_tab",
+    "mixed_structural_space",
+    "mixed_json_punctuation",
+    "string_content_or_other"
+  ],
+  "common_initial_merge_rules": 0,
+  "core_vocab_sizes": {
+    "no_whitespace200k": 200000,
+    "superbpe_t180k": 200000
+  },
+  "differing_fields": "Learned core vocabulary and ordered merge rules; equal inference pretokenization and nonvocabulary model settings",
+  "exact_accounting_records_formats": 832,
+  "example_count": 72,
+  "example_rule": "Largest absolute positive and negative local gap per source/format/class; ties record_id then byte offset; each example preserves observed partitions",
+  "feature_occurrences": [
+    {
+      "crossing_absent_from_other_vocab": 2746,
+      "crossing_tokens": 2976,
+      "emitted_tokens": 12205,
+      "format": "compact",
+      "source": "a2a",
+      "structural_newline_absent_from_other_vocab": 0,
+      "structural_newline_tokens": 0,
+      "structural_punctuation_absent_from_other_vocab": 433,
+      "structural_punctuation_tokens": 4543,
+      "structural_space_absent_from_other_vocab": 0,
+      "structural_space_tokens": 0,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "no_whitespace200k",
+      "tokens_absent_from_other_vocabulary": 2879
+    },
+    {
+      "crossing_absent_from_other_vocab": 596,
+      "crossing_tokens": 774,
+      "emitted_tokens": 10612,
+      "format": "compact",
+      "source": "a2a",
+      "structural_newline_absent_from_other_vocab": 0,
+      "structural_newline_tokens": 0,
+      "structural_punctuation_absent_from_other_vocab": 1269,
+      "structural_punctuation_tokens": 2912,
+      "structural_space_absent_from_other_vocab": 0,
+      "structural_space_tokens": 0,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "superbpe_t180k",
+      "tokens_absent_from_other_vocabulary": 3750
+    },
+    {
+      "crossing_absent_from_other_vocab": 4555,
+      "crossing_tokens": 8035,
+      "emitted_tokens": 12751,
+      "format": "indent2",
+      "source": "a2a",
+      "structural_newline_absent_from_other_vocab": 1209,
+      "structural_newline_tokens": 2477,
+      "structural_punctuation_absent_from_other_vocab": 2237,
+      "structural_punctuation_tokens": 5088,
+      "structural_space_absent_from_other_vocab": 1786,
+      "structural_space_tokens": 3795,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "no_whitespace200k",
+      "tokens_absent_from_other_vocabulary": 4687
+    },
+    {
+      "crossing_absent_from_other_vocab": 951,
+      "crossing_tokens": 5356,
+      "emitted_tokens": 14868,
+      "format": "indent2",
+      "source": "a2a",
+      "structural_newline_absent_from_other_vocab": 134,
+      "structural_newline_tokens": 2477,
+      "structural_punctuation_absent_from_other_vocab": 793,
+      "structural_punctuation_tokens": 6526,
+      "structural_space_absent_from_other_vocab": 498,
+      "structural_space_tokens": 3795,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "superbpe_t180k",
+      "tokens_absent_from_other_vocabulary": 3152
+    },
+    {
+      "crossing_absent_from_other_vocab": 3961,
+      "crossing_tokens": 5306,
+      "emitted_tokens": 11735,
+      "format": "spaced",
+      "source": "a2a",
+      "structural_newline_absent_from_other_vocab": 0,
+      "structural_newline_tokens": 0,
+      "structural_punctuation_absent_from_other_vocab": 1640,
+      "structural_punctuation_tokens": 4212,
+      "structural_space_absent_from_other_vocab": 1525,
+      "structural_space_tokens": 2486,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "no_whitespace200k",
+      "tokens_absent_from_other_vocabulary": 4093
+    },
+    {
+      "crossing_absent_from_other_vocab": 818,
+      "crossing_tokens": 1277,
+      "emitted_tokens": 12539,
+      "format": "spaced",
+      "source": "a2a",
+      "structural_newline_absent_from_other_vocab": 0,
+      "structural_newline_tokens": 0,
+      "structural_punctuation_absent_from_other_vocab": 1621,
+      "structural_punctuation_tokens": 5040,
+      "structural_space_absent_from_other_vocab": 926,
+      "structural_space_tokens": 2486,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "superbpe_t180k",
+      "tokens_absent_from_other_vocabulary": 3980
+    },
+    {
+      "crossing_absent_from_other_vocab": 5557,
+      "crossing_tokens": 7940,
+      "emitted_tokens": 12823,
+      "format": "tab",
+      "source": "a2a",
+      "structural_newline_absent_from_other_vocab": 1250,
+      "structural_newline_tokens": 2477,
+      "structural_punctuation_absent_from_other_vocab": 3239,
+      "structural_punctuation_tokens": 5088,
+      "structural_space_absent_from_other_vocab": 1411,
+      "structural_space_tokens": 1411,
+      "structural_tab_absent_from_other_vocab": 1351,
+      "structural_tab_tokens": 2384,
+      "tokenizer": "no_whitespace200k",
+      "tokens_absent_from_other_vocabulary": 5689
+    },
+    {
+      "crossing_absent_from_other_vocab": 951,
+      "crossing_tokens": 5278,
+      "emitted_tokens": 16177,
+      "format": "tab",
+      "source": "a2a",
+      "structural_newline_absent_from_other_vocab": 134,
+      "structural_newline_tokens": 2477,
+      "structural_punctuation_absent_from_other_vocab": 793,
+      "structural_punctuation_tokens": 6526,
+      "structural_space_absent_from_other_vocab": 498,
+      "structural_space_tokens": 1411,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 2384,
+      "tokenizer": "superbpe_t180k",
+      "tokens_absent_from_other_vocabulary": 3152
+    },
+    {
+      "crossing_absent_from_other_vocab": 3186,
+      "crossing_tokens": 3543,
+      "emitted_tokens": 12804,
+      "format": "compact",
+      "source": "mcp",
+      "structural_newline_absent_from_other_vocab": 0,
+      "structural_newline_tokens": 0,
+      "structural_punctuation_absent_from_other_vocab": 360,
+      "structural_punctuation_tokens": 4354,
+      "structural_space_absent_from_other_vocab": 0,
+      "structural_space_tokens": 0,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "no_whitespace200k",
+      "tokens_absent_from_other_vocabulary": 3434
+    },
+    {
+      "crossing_absent_from_other_vocab": 675,
+      "crossing_tokens": 1067,
+      "emitted_tokens": 11230,
+      "format": "compact",
+      "source": "mcp",
+      "structural_newline_absent_from_other_vocab": 0,
+      "structural_newline_tokens": 0,
+      "structural_punctuation_absent_from_other_vocab": 1275,
+      "structural_punctuation_tokens": 2804,
+      "structural_space_absent_from_other_vocab": 0,
+      "structural_space_tokens": 0,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "superbpe_t180k",
+      "tokens_absent_from_other_vocabulary": 3923
+    },
+    {
+      "crossing_absent_from_other_vocab": 5065,
+      "crossing_tokens": 8388,
+      "emitted_tokens": 13350,
+      "format": "indent2",
+      "source": "mcp",
+      "structural_newline_absent_from_other_vocab": 1152,
+      "structural_newline_tokens": 2420,
+      "structural_punctuation_absent_from_other_vocab": 2227,
+      "structural_punctuation_tokens": 4907,
+      "structural_space_absent_from_other_vocab": 1922,
+      "structural_space_tokens": 3778,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "no_whitespace200k",
+      "tokens_absent_from_other_vocabulary": 5305
+    },
+    {
+      "crossing_absent_from_other_vocab": 882,
+      "crossing_tokens": 5449,
+      "emitted_tokens": 15659,
+      "format": "indent2",
+      "source": "mcp",
+      "structural_newline_absent_from_other_vocab": 111,
+      "structural_newline_tokens": 2420,
+      "structural_punctuation_absent_from_other_vocab": 618,
+      "structural_punctuation_tokens": 6376,
+      "structural_space_absent_from_other_vocab": 377,
+      "structural_space_tokens": 3778,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "superbpe_t180k",
+      "tokens_absent_from_other_vocabulary": 3157
+    },
+    {
+      "crossing_absent_from_other_vocab": 4502,
+      "crossing_tokens": 5743,
+      "emitted_tokens": 12366,
+      "format": "spaced",
+      "source": "mcp",
+      "structural_newline_absent_from_other_vocab": 0,
+      "structural_newline_tokens": 0,
+      "structural_punctuation_absent_from_other_vocab": 1663,
+      "structural_punctuation_tokens": 4105,
+      "structural_space_absent_from_other_vocab": 1551,
+      "structural_space_tokens": 2403,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "no_whitespace200k",
+      "tokens_absent_from_other_vocabulary": 4747
+    },
+    {
+      "crossing_absent_from_other_vocab": 771,
+      "crossing_tokens": 1361,
+      "emitted_tokens": 13215,
+      "format": "spaced",
+      "source": "mcp",
+      "structural_newline_absent_from_other_vocab": 0,
+      "structural_newline_tokens": 0,
+      "structural_punctuation_absent_from_other_vocab": 1568,
+      "structural_punctuation_tokens": 4877,
+      "structural_space_absent_from_other_vocab": 880,
+      "structural_space_tokens": 2403,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "superbpe_t180k",
+      "tokens_absent_from_other_vocabulary": 4107
+    },
+    {
+      "crossing_absent_from_other_vocab": 5755,
+      "crossing_tokens": 8356,
+      "emitted_tokens": 13580,
+      "format": "tab",
+      "source": "mcp",
+      "structural_newline_absent_from_other_vocab": 1164,
+      "structural_newline_tokens": 2420,
+      "structural_punctuation_absent_from_other_vocab": 2917,
+      "structural_punctuation_tokens": 4907,
+      "structural_space_absent_from_other_vocab": 1449,
+      "structural_space_tokens": 1449,
+      "structural_tab_absent_from_other_vocab": 1127,
+      "structural_tab_tokens": 2337,
+      "tokenizer": "no_whitespace200k",
+      "tokens_absent_from_other_vocabulary": 5995
+    },
+    {
+      "crossing_absent_from_other_vocab": 882,
+      "crossing_tokens": 5405,
+      "emitted_tokens": 16766,
+      "format": "tab",
+      "source": "mcp",
+      "structural_newline_absent_from_other_vocab": 111,
+      "structural_newline_tokens": 2420,
+      "structural_punctuation_absent_from_other_vocab": 618,
+      "structural_punctuation_tokens": 6376,
+      "structural_space_absent_from_other_vocab": 377,
+      "structural_space_tokens": 1449,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 2329,
+      "tokenizer": "superbpe_t180k",
+      "tokens_absent_from_other_vocabulary": 3157
+    },
+    {
+      "crossing_absent_from_other_vocab": 156,
+      "crossing_tokens": 202,
+      "emitted_tokens": 616,
+      "format": "compact",
+      "source": "sweagent",
+      "structural_newline_absent_from_other_vocab": 0,
+      "structural_newline_tokens": 0,
+      "structural_punctuation_absent_from_other_vocab": 23,
+      "structural_punctuation_tokens": 134,
+      "structural_space_absent_from_other_vocab": 0,
+      "structural_space_tokens": 0,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "no_whitespace200k",
+      "tokens_absent_from_other_vocabulary": 170
+    },
+    {
+      "crossing_absent_from_other_vocab": 6,
+      "crossing_tokens": 46,
+      "emitted_tokens": 620,
+      "format": "compact",
+      "source": "sweagent",
+      "structural_newline_absent_from_other_vocab": 0,
+      "structural_newline_tokens": 0,
+      "structural_punctuation_absent_from_other_vocab": 11,
+      "structural_punctuation_tokens": 102,
+      "structural_space_absent_from_other_vocab": 0,
+      "structural_space_tokens": 0,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "superbpe_t180k",
+      "tokens_absent_from_other_vocabulary": 101
+    },
+    {
+      "crossing_absent_from_other_vocab": 174,
+      "crossing_tokens": 323,
+      "emitted_tokens": 656,
+      "format": "indent2",
+      "source": "sweagent",
+      "structural_newline_absent_from_other_vocab": 2,
+      "structural_newline_tokens": 62,
+      "structural_punctuation_absent_from_other_vocab": 41,
+      "structural_punctuation_tokens": 161,
+      "structural_space_absent_from_other_vocab": 39,
+      "structural_space_tokens": 78,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "no_whitespace200k",
+      "tokens_absent_from_other_vocabulary": 188
+    },
+    {
+      "crossing_absent_from_other_vocab": 6,
+      "crossing_tokens": 143,
+      "emitted_tokens": 719,
+      "format": "indent2",
+      "source": "sweagent",
+      "structural_newline_absent_from_other_vocab": 0,
+      "structural_newline_tokens": 62,
+      "structural_punctuation_absent_from_other_vocab": 14,
+      "structural_punctuation_tokens": 193,
+      "structural_space_absent_from_other_vocab": 13,
+      "structural_space_tokens": 78,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "superbpe_t180k",
+      "tokens_absent_from_other_vocabulary": 104
+    },
+    {
+      "crossing_absent_from_other_vocab": 182,
+      "crossing_tokens": 246,
+      "emitted_tokens": 601,
+      "format": "spaced",
+      "source": "sweagent",
+      "structural_newline_absent_from_other_vocab": 0,
+      "structural_newline_tokens": 0,
+      "structural_punctuation_absent_from_other_vocab": 44,
+      "structural_punctuation_tokens": 109,
+      "structural_space_absent_from_other_vocab": 39,
+      "structural_space_tokens": 55,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "no_whitespace200k",
+      "tokens_absent_from_other_vocabulary": 196
+    },
+    {
+      "crossing_absent_from_other_vocab": 6,
+      "crossing_tokens": 62,
+      "emitted_tokens": 657,
+      "format": "spaced",
+      "source": "sweagent",
+      "structural_newline_absent_from_other_vocab": 0,
+      "structural_newline_tokens": 0,
+      "structural_punctuation_absent_from_other_vocab": 13,
+      "structural_punctuation_tokens": 134,
+      "structural_space_absent_from_other_vocab": 13,
+      "structural_space_tokens": 55,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 0,
+      "tokenizer": "superbpe_t180k",
+      "tokens_absent_from_other_vocabulary": 103
+    },
+    {
+      "crossing_absent_from_other_vocab": 174,
+      "crossing_tokens": 323,
+      "emitted_tokens": 656,
+      "format": "tab",
+      "source": "sweagent",
+      "structural_newline_absent_from_other_vocab": 2,
+      "structural_newline_tokens": 62,
+      "structural_punctuation_absent_from_other_vocab": 41,
+      "structural_punctuation_tokens": 161,
+      "structural_space_absent_from_other_vocab": 39,
+      "structural_space_tokens": 39,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 39,
+      "tokenizer": "no_whitespace200k",
+      "tokens_absent_from_other_vocabulary": 188
+    },
+    {
+      "crossing_absent_from_other_vocab": 6,
+      "crossing_tokens": 143,
+      "emitted_tokens": 719,
+      "format": "tab",
+      "source": "sweagent",
+      "structural_newline_absent_from_other_vocab": 0,
+      "structural_newline_tokens": 62,
+      "structural_punctuation_absent_from_other_vocab": 14,
+      "structural_punctuation_tokens": 193,
+      "structural_space_absent_from_other_vocab": 13,
+      "structural_space_tokens": 39,
+      "structural_tab_absent_from_other_vocab": 0,
+      "structural_tab_tokens": 39,
+      "tokenizer": "superbpe_t180k",
+      "tokens_absent_from_other_vocabulary": 104
+    }
+  ],
+  "interpretation_of_common_vocab_cases": "A winning full token present in both vocabularies but not emitted by the loser indicates differing merge paths or intermediate-vocabulary availability; not proof of a merge-rank-only effect",
+  "mechanism_cpu_seconds": 3.875,
+  "one_token_vs_multiple_membership_cases": [
+    {
+      "counts": {
+        "no_whitespace_one_token_absent_from_t180k_vocab_net_gap": 10,
+        "no_whitespace_one_token_absent_from_t180k_vocab_regions": 10,
+        "t180k_one_token_absent_from_no_whitespace_vocab_net_gap": -1255,
+        "t180k_one_token_absent_from_no_whitespace_vocab_regions": 1235
+      },
+      "format": "compact",
+      "source": "a2a"
+    },
+    {
+      "counts": {
+        "no_whitespace_one_token_absent_from_t180k_vocab_net_gap": 1281,
+        "no_whitespace_one_token_absent_from_t180k_vocab_regions": 1127,
+        "t180k_one_token_absent_from_no_whitespace_vocab_net_gap": -79,
+        "t180k_one_token_absent_from_no_whitespace_vocab_regions": 78
+      },
+      "format": "indent2",
+      "source": "a2a"
+    },
+    {
+      "counts": {
+        "no_whitespace_one_token_absent_from_t180k_vocab_net_gap": 678,
+        "no_whitespace_one_token_absent_from_t180k_vocab_regions": 528,
+        "t180k_one_token_absent_from_no_whitespace_vocab_net_gap": -78,
+        "t180k_one_token_absent_from_no_whitespace_vocab_regions": 77
+      },
+      "format": "spaced",
+      "source": "a2a"
+    },
+    {
+      "counts": {
+        "no_whitespace_one_token_absent_from_t180k_vocab_net_gap": 2966,
+        "no_whitespace_one_token_absent_from_t180k_vocab_regions": 2364,
+        "t180k_one_token_absent_from_no_whitespace_vocab_net_gap": -79,
+        "t180k_one_token_absent_from_no_whitespace_vocab_regions": 78
+      },
+      "format": "tab",
+      "source": "a2a"
+    },
+    {
+      "counts": {
+        "no_whitespace_one_token_absent_from_t180k_vocab_net_gap": 29,
+        "no_whitespace_one_token_absent_from_t180k_vocab_regions": 29,
+        "t180k_one_token_absent_from_no_whitespace_vocab_net_gap": -1231,
+        "t180k_one_token_absent_from_no_whitespace_vocab_regions": 1216
+      },
+      "format": "compact",
+      "source": "mcp"
+    },
+    {
+      "counts": {
+        "no_whitespace_one_token_absent_from_t180k_vocab_net_gap": 1594,
+        "no_whitespace_one_token_absent_from_t180k_vocab_regions": 1303,
+        "t180k_one_token_absent_from_no_whitespace_vocab_net_gap": -89,
+        "t180k_one_token_absent_from_no_whitespace_vocab_regions": 88
+      },
+      "format": "indent2",
+      "source": "mcp"
+    },
+    {
+      "counts": {
+        "no_whitespace_one_token_absent_from_t180k_vocab_net_gap": 773,
+        "no_whitespace_one_token_absent_from_t180k_vocab_regions": 612,
+        "t180k_one_token_absent_from_no_whitespace_vocab_net_gap": -96,
+        "t180k_one_token_absent_from_no_whitespace_vocab_regions": 95
+      },
+      "format": "spaced",
+      "source": "mcp"
+    },
+    {
+      "counts": {
+        "no_whitespace_one_token_absent_from_t180k_vocab_net_gap": 2926,
+        "no_whitespace_one_token_absent_from_t180k_vocab_regions": 2177,
+        "t180k_one_token_absent_from_no_whitespace_vocab_net_gap": -89,
+        "t180k_one_token_absent_from_no_whitespace_vocab_regions": 88
+      },
+      "format": "tab",
+      "source": "mcp"
+    },
+    {
+      "counts": {
+        "no_whitespace_one_token_absent_from_t180k_vocab_net_gap": 25,
+        "no_whitespace_one_token_absent_from_t180k_vocab_regions": 25,
+        "t180k_one_token_absent_from_no_whitespace_vocab_net_gap": -15,
+        "t180k_one_token_absent_from_no_whitespace_vocab_regions": 15
+      },
+      "format": "compact",
+      "source": "sweagent"
+    },
+    {
+      "counts": {
+        "no_whitespace_one_token_absent_from_t180k_vocab_net_gap": 41,
+        "no_whitespace_one_token_absent_from_t180k_vocab_regions": 41,
+        "t180k_one_token_absent_from_no_whitespace_vocab_net_gap": -8,
+        "t180k_one_token_absent_from_no_whitespace_vocab_regions": 8
+      },
+      "format": "indent2",
+      "source": "sweagent"
+    },
+    {
+      "counts": {
+        "no_whitespace_one_token_absent_from_t180k_vocab_net_gap": 41,
+        "no_whitespace_one_token_absent_from_t180k_vocab_regions": 41,
+        "t180k_one_token_absent_from_no_whitespace_vocab_net_gap": -8,
+        "t180k_one_token_absent_from_no_whitespace_vocab_regions": 8
+      },
+      "format": "spaced",
+      "source": "sweagent"
+    },
+    {
+      "counts": {
+        "no_whitespace_one_token_absent_from_t180k_vocab_net_gap": 41,
+        "no_whitespace_one_token_absent_from_t180k_vocab_regions": 41,
+        "t180k_one_token_absent_from_no_whitespace_vocab_net_gap": -8,
+        "t180k_one_token_absent_from_no_whitespace_vocab_regions": 8
+      },
+      "format": "tab",
+      "source": "sweagent"
+    }
+  ],
+  "region_class_definitions": {
+    "mixed_json_punctuation": "Contains outside-string JSON punctuation, earlier classes excluded",
+    "mixed_structural_newline_tab": "Contains outside-string LF/tab, not structural-only",
+    "mixed_structural_space": "Contains outside-string ASCII space, earlier classes excluded",
+    "string_content_or_other": "Remaining bytes; includes quoted keys as well as values",
+    "structural_only": "All bytes outside strings and only JSON punctuation or ASCII formatting whitespace"
+  },
+  "region_count": 64113,
+  "same_inference_pretokenizer": true,
+  "same_nonvocabulary_model_settings": true,
+  "same_null_normalizer": true,
+  "shared_core_vocabulary_tokens": 32883,
+  "source_format_region_sums": [
+    {
+      "format": "compact",
+      "negative_gap_tokens": -604,
+      "net_token_gap": -544,
+      "positive_gap_tokens": 60,
+      "region_class": "mixed_json_punctuation",
+      "regions": 781,
+      "source": "a2a"
+    },
+    {
+      "format": "compact",
+      "negative_gap_tokens": -338,
+      "net_token_gap": -217,
+      "positive_gap_tokens": 121,
+      "region_class": "string_content_or_other",
+      "regions": 4248,
+      "source": "a2a"
+    },
+    {
+      "format": "compact",
+      "negative_gap_tokens": -832,
+      "net_token_gap": -832,
+      "positive_gap_tokens": 0,
+      "region_class": "structural_only",
+      "regions": 2098,
+      "source": "a2a"
+    },
+    {
+      "format": "indent2",
+      "negative_gap_tokens": -1,
+      "net_token_gap": -1,
+      "positive_gap_tokens": 0,
+      "region_class": "mixed_json_punctuation",
+      "regions": 24,
+      "source": "a2a"
+    },
+    {
+      "format": "indent2",
+      "negative_gap_tokens": -6,
+      "net_token_gap": 312,
+      "positive_gap_tokens": 318,
+      "region_class": "mixed_structural_newline_tab",
+      "regions": 525,
+      "source": "a2a"
+    },
+    {
+      "format": "indent2",
+      "negative_gap_tokens": -1,
+      "net_token_gap": 1179,
+      "positive_gap_tokens": 1180,
+      "region_class": "mixed_structural_space",
+      "regions": 915,
+      "source": "a2a"
+    },
+    {
+      "format": "indent2",
+      "negative_gap_tokens": -220,
+      "net_token_gap": -105,
+      "positive_gap_tokens": 115,
+      "region_class": "string_content_or_other",
+      "regions": 3482,
+      "source": "a2a"
+    },
+    {
+      "format": "indent2",
+      "negative_gap_tokens": 0,
+      "net_token_gap": 732,
+      "positive_gap_tokens": 732,
+      "region_class": "structural_only",
+      "regions": 3512,
+      "source": "a2a"
+    },
+    {
+      "format": "spaced",
+      "negative_gap_tokens": -2,
+      "net_token_gap": -2,
+      "positive_gap_tokens": 0,
+      "region_class": "mixed_json_punctuation",
+      "regions": 61,
+      "source": "a2a"
+    },
+    {
+      "format": "spaced",
+      "negative_gap_tokens": -57,
+      "net_token_gap": 594,
+      "positive_gap_tokens": 651,
+      "region_class": "mixed_structural_space",
+      "regions": 987,
+      "source": "a2a"
+    },
+    {
+      "format": "spaced",
+      "negative_gap_tokens": -218,
+      "net_token_gap": -101,
+      "positive_gap_tokens": 117,
+      "region_class": "string_content_or_other",
+      "regions": 3899,
+      "source": "a2a"
+    },
+    {
+      "format": "spaced",
+      "negative_gap_tokens": -56,
+      "net_token_gap": 313,
+      "positive_gap_tokens": 369,
+      "region_class": "structural_only",
+      "regions": 1726,
+      "source": "a2a"
+    },
+    {
+      "format": "tab",
+      "negative_gap_tokens": -1,
+      "net_token_gap": 32,
+      "positive_gap_tokens": 33,
+      "region_class": "mixed_json_punctuation",
+      "regions": 169,
+      "source": "a2a"
+    },
+    {
+      "format": "tab",
+      "negative_gap_tokens": -6,
+      "net_token_gap": 470,
+      "positive_gap_tokens": 476,
+      "region_class": "mixed_structural_newline_tab",
+      "regions": 604,
+      "source": "a2a"
+    },
+    {
+      "format": "tab",
+      "negative_gap_tokens": -1,
+      "net_token_gap": 1245,
+      "positive_gap_tokens": 1246,
+      "region_class": "mixed_structural_space",
+      "regions": 715,
+      "source": "a2a"
+    },
+    {
+      "format": "tab",
+      "negative_gap_tokens": -220,
+      "net_token_gap": -105,
+      "positive_gap_tokens": 115,
+      "region_class": "string_content_or_other",
+      "regions": 3458,
+      "source": "a2a"
+    },
+    {
+      "format": "tab",
+      "negative_gap_tokens": 0,
+      "net_token_gap": 1712,
+      "positive_gap_tokens": 1712,
+      "region_class": "structural_only",
+      "regions": 3917,
+      "source": "a2a"
+    },
+    {
+      "format": "compact",
+      "negative_gap_tokens": -565,
+      "net_token_gap": -543,
+      "positive_gap_tokens": 22,
+      "region_class": "mixed_json_punctuation",
+      "regions": 572,
+      "source": "mcp"
+    },
+    {
+      "format": "compact",
+      "negative_gap_tokens": -392,
+      "net_token_gap": -129,
+      "positive_gap_tokens": 263,
+      "region_class": "string_content_or_other",
+      "regions": 4314,
+      "source": "mcp"
+    },
+    {
+      "format": "compact",
+      "negative_gap_tokens": -902,
+      "net_token_gap": -902,
+      "positive_gap_tokens": 0,
+      "region_class": "structural_only",
+      "regions": 2223,
+      "source": "mcp"
+    },
+    {
+      "format": "indent2",
+      "negative_gap_tokens": 0,
+      "net_token_gap": 0,
+      "positive_gap_tokens": 0,
+      "region_class": "mixed_json_punctuation",
+      "regions": 22,
+      "source": "mcp"
+    },
+    {
+      "format": "indent2",
+      "negative_gap_tokens": -8,
+      "net_token_gap": 175,
+      "positive_gap_tokens": 183,
+      "region_class": "mixed_structural_newline_tab",
+      "regions": 385,
+      "source": "mcp"
+    },
+    {
+      "format": "indent2",
+      "negative_gap_tokens": -3,
+      "net_token_gap": 1245,
+      "positive_gap_tokens": 1248,
+      "region_class": "mixed_structural_space",
+      "regions": 869,
+      "source": "mcp"
+    },
+    {
+      "format": "indent2",
+      "negative_gap_tokens": -285,
+      "net_token_gap": -16,
+      "positive_gap_tokens": 269,
+      "region_class": "string_content_or_other",
+      "regions": 3630,
+      "source": "mcp"
+    },
+    {
+      "format": "indent2",
+      "negative_gap_tokens": 0,
+      "net_token_gap": 905,
+      "positive_gap_tokens": 905,
+      "region_class": "structural_only",
+      "regions": 3518,
+      "source": "mcp"
+    },
+    {
+      "format": "spaced",
+      "negative_gap_tokens": -4,
+      "net_token_gap": -3,
+      "positive_gap_tokens": 1,
+      "region_class": "mixed_json_punctuation",
+      "regions": 28,
+      "source": "mcp"
+    },
+    {
+      "format": "spaced",
+      "negative_gap_tokens": -34,
+      "net_token_gap": 500,
+      "positive_gap_tokens": 534,
+      "region_class": "mixed_structural_space",
+      "regions": 772,
+      "source": "mcp"
+    },
+    {
+      "format": "spaced",
+      "negative_gap_tokens": -284,
+      "net_token_gap": -15,
+      "positive_gap_tokens": 269,
+      "region_class": "string_content_or_other",
+      "regions": 4096,
+      "source": "mcp"
+    },
+    {
+      "format": "spaced",
+      "negative_gap_tokens": -55,
+      "net_token_gap": 367,
+      "positive_gap_tokens": 422,
+      "region_class": "structural_only",
+      "regions": 1847,
+      "source": "mcp"
+    },
+    {
+      "format": "tab",
+      "negative_gap_tokens": 0,
+      "net_token_gap": 29,
+      "positive_gap_tokens": 29,
+      "region_class": "mixed_json_punctuation",
+      "regions": 154,
+      "source": "mcp"
+    },
+    {
+      "format": "tab",
+      "negative_gap_tokens": -8,
+      "net_token_gap": 333,
+      "positive_gap_tokens": 341,
+      "region_class": "mixed_structural_newline_tab",
+      "regions": 505,
+      "source": "mcp"
+    },
+    {
+      "format": "tab",
+      "negative_gap_tokens": 0,
+      "net_token_gap": 1319,
+      "positive_gap_tokens": 1319,
+      "region_class": "mixed_structural_space",
+      "regions": 653,
+      "source": "mcp"
+    },
+    {
+      "format": "tab",
+      "negative_gap_tokens": -285,
+      "net_token_gap": -16,
+      "positive_gap_tokens": 269,
+      "region_class": "string_content_or_other",
+      "regions": 3594,
+      "source": "mcp"
+    },
+    {
+      "format": "tab",
+      "negative_gap_tokens": 0,
+      "net_token_gap": 1521,
+      "positive_gap_tokens": 1521,
+      "region_class": "structural_only",
+      "regions": 4051,
+      "source": "mcp"
+    },
+    {
+      "format": "compact",
+      "negative_gap_tokens": -24,
+      "net_token_gap": -24,
+      "positive_gap_tokens": 0,
+      "region_class": "mixed_json_punctuation",
+      "regions": 32,
+      "source": "sweagent"
+    },
+    {
+      "format": "compact",
+      "negative_gap_tokens": -27,
+      "net_token_gap": 28,
+      "positive_gap_tokens": 55,
+      "region_class": "string_content_or_other",
+      "regions": 310,
+      "source": "sweagent"
+    },
+    {
+      "format": "compact",
+      "negative_gap_tokens": 0,
+      "net_token_gap": 0,
+      "positive_gap_tokens": 0,
+      "region_class": "structural_only",
+      "regions": 70,
+      "source": "sweagent"
+    },
+    {
+      "format": "indent2",
+      "negative_gap_tokens": 0,
+      "net_token_gap": 0,
+      "positive_gap_tokens": 0,
+      "region_class": "mixed_structural_newline_tab",
+      "regions": 3,
+      "source": "sweagent"
+    },
+    {
+      "format": "indent2",
+      "negative_gap_tokens": 0,
+      "net_token_gap": 21,
+      "positive_gap_tokens": 21,
+      "region_class": "mixed_structural_space",
+      "regions": 23,
+      "source": "sweagent"
+    },
+    {
+      "format": "indent2",
+      "negative_gap_tokens": -27,
+      "net_token_gap": 26,
+      "positive_gap_tokens": 53,
+      "region_class": "string_content_or_other",
+      "regions": 307,
+      "source": "sweagent"
+    },
+    {
+      "format": "indent2",
+      "negative_gap_tokens": 0,
+      "net_token_gap": 16,
+      "positive_gap_tokens": 16,
+      "region_class": "structural_only",
+      "regions": 138,
+      "source": "sweagent"
+    },
+    {
+      "format": "spaced",
+      "negative_gap_tokens": -7,
+      "net_token_gap": -7,
+      "positive_gap_tokens": 0,
+      "region_class": "mixed_json_punctuation",
+      "regions": 7,
+      "source": "sweagent"
+    },
+    {
+      "format": "spaced",
+      "negative_gap_tokens": 0,
+      "net_token_gap": 21,
+      "positive_gap_tokens": 21,
+      "region_class": "mixed_structural_space",
+      "regions": 23,
+      "source": "sweagent"
+    },
+    {
+      "format": "spaced",
+      "negative_gap_tokens": -27,
+      "net_token_gap": 26,
+      "positive_gap_tokens": 53,
+      "region_class": "string_content_or_other",
+      "regions": 303,
+      "source": "sweagent"
+    },
+    {
+      "format": "spaced",
+      "negative_gap_tokens": 0,
+      "net_token_gap": 16,
+      "positive_gap_tokens": 16,
+      "region_class": "structural_only",
+      "regions": 72,
+      "source": "sweagent"
+    },
+    {
+      "format": "tab",
+      "negative_gap_tokens": 0,
+      "net_token_gap": 0,
+      "positive_gap_tokens": 0,
+      "region_class": "mixed_structural_newline_tab",
+      "regions": 3,
+      "source": "sweagent"
+    },
+    {
+      "format": "tab",
+      "negative_gap_tokens": 0,
+      "net_token_gap": 21,
+      "positive_gap_tokens": 21,
+      "region_class": "mixed_structural_space",
+      "regions": 23,
+      "source": "sweagent"
+    },
+    {
+      "format": "tab",
+      "negative_gap_tokens": -27,
+      "net_token_gap": 26,
+      "positive_gap_tokens": 53,
+      "region_class": "string_content_or_other",
+      "regions": 307,
+      "source": "sweagent"
+    },
+    {
+      "format": "tab",
+      "negative_gap_tokens": 0,
+      "net_token_gap": 16,
+      "positive_gap_tokens": 16,
+      "region_class": "structural_only",
+      "regions": 138,
+      "source": "sweagent"
+    }
+  ],
+  "status": "VALID_OBSERVATIONAL_ACCOUNTING",
+  "unique_core_tokens_each": 167117
+}

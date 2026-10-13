@@ -1,0 +1,4 @@
+# Only optional encoding replay requires this dependency.
+# Statistical replay and vocabulary inventory use the Python standard library.
+# Encoding requires Python 3.13.5, matching the original Windows audit.
+tokenizers==0.20.3

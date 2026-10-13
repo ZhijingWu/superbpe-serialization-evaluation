@@ -1,0 +1,148 @@
+{
+  "derivatives": [
+    {
+      "changes": [
+        "Metadata/check input filenames",
+        "Require separate output directory",
+        "Explicit original CRLF JSON output; LF script source for Git portability"
+      ],
+      "original_file": "analyze.py",
+      "original_sha256": "5a16978f7c7badb4b978235fb1ba0b11bc1efae8ba157420f014b9f4804727dc",
+      "public_path": "scripts/analyze_synthetic.py",
+      "public_sha256": "2324ecf95873cefe469f133c4b4633f780796895b433eaa79757a1180d67311a",
+      "statistical_formulas_unchanged": true
+    },
+    {
+      "changes": [
+        "Metadata/check input filenames",
+        "Require separate output directory",
+        "Explicit original CRLF JSON output; LF script source for Git portability"
+      ],
+      "original_file": "analyze_external.py",
+      "original_sha256": "400fc6e243a1f1d0c09ca8ff1a5ed9f0b9de39dd0cdd5da20224a58a962f9001",
+      "public_path": "scripts/analyze_external.py",
+      "public_sha256": "ceda73ca777090cd8ad8e8fc63341f64e7c112ab10450327e5a173a1fb13ccd5",
+      "statistical_formulas_unchanged": true
+    },
+    {
+      "byte_identical": true,
+      "classification": "Numerical observations/aggregates; no raw source text",
+      "original_file": "tokenizer_observations.csv",
+      "public_path": "results/synthetic/tokenizer_observations.csv",
+      "sha256": "0c2cd747e17af525aab39f5b5ad7ac4e1face91abdb156246342f845d0a3d2aa"
+    },
+    {
+      "byte_identical": true,
+      "classification": "Numerical observations/aggregates; no raw source text",
+      "original_file": "primary_statistics.json",
+      "public_path": "results/synthetic/primary_statistics.json",
+      "sha256": "4d42422d18428ae8728ec6571798db17934f6b5c88060fc972f1f858951f2b30"
+    },
+    {
+      "byte_identical": true,
+      "classification": "Numerical observations/aggregates; no raw source text",
+      "original_file": "bootstrap_results.json",
+      "public_path": "results/synthetic/bootstrap_results.json",
+      "sha256": "83778d52fbfc1283e0706cfab194b2609bac5ae25560075a49b021d197c6e1df"
+    },
+    {
+      "byte_identical": true,
+      "classification": "Numerical observations/aggregates; no raw source text",
+      "original_file": "raw_token_counts.csv",
+      "public_path": "results/synthetic/raw_token_counts.csv",
+      "sha256": "968aa5b0eb7a1972922a5ed4271377b7365f9e0ea0c1d415d8dd43c30b9ff8f4"
+    },
+    {
+      "byte_identical": true,
+      "classification": "Numerical observations/aggregates; no raw source text",
+      "original_file": "sensitivity_results.csv",
+      "public_path": "results/synthetic/sensitivity_results.csv",
+      "sha256": "57bf11f835dc96b6f44a160ea4b7719d07e7a25fac9d6ecf611b8c92daf2ae95"
+    },
+    {
+      "byte_identical": true,
+      "classification": "Numerical observations/aggregates; no raw source text",
+      "original_file": "family_effects.csv",
+      "public_path": "results/synthetic/family_effects.csv",
+      "sha256": "ac6af1edd8a370ae7dcdc609dbe99f5731e467b89b22b7b78a5ce4ff6a696cae"
+    },
+    {
+      "byte_identical": true,
+      "classification": "Numerical observations/aggregates; no raw source text",
+      "original_file": "external_token_counts.csv",
+      "public_path": "results/external/external_token_counts.csv",
+      "sha256": "18ed720ac7e044dee5bf6024fa03fed526e76708896e8f30e5b465468c69d236"
+    },
+    {
+      "byte_identical": true,
+      "classification": "Numerical observations/aggregates; no raw source text",
+      "original_file": "external_statistics.json",
+      "public_path": "results/external/external_statistics.json",
+      "sha256": "9dd94bdefad8d6674ee328dda31c6198cb56d4a0429abf89eb669dffbfbfd906"
+    },
+    {
+      "byte_identical": true,
+      "classification": "Numerical observations/aggregates; no raw source text",
+      "original_file": "external_bootstrap_results.json",
+      "public_path": "results/external/external_bootstrap_results.json",
+      "sha256": "e608bdbbed462049f63d800991411ebcba4e790e66ddd953e922c378944c1652"
+    },
+    {
+      "byte_identical": true,
+      "classification": "Numerical observations/aggregates; no raw source text",
+      "original_file": "external_paired_counts.csv",
+      "public_path": "results/external/external_paired_counts.csv",
+      "sha256": "9d3326eefc4e8a5f7448eed38b7892d4b2a0a58ba23c4f99d56e827a2ea253c6"
+    },
+    {
+      "byte_identical": true,
+      "classification": "Numerical observations/aggregates; no raw source text",
+      "original_file": "external_record_effects.csv",
+      "public_path": "results/external/external_record_effects.csv",
+      "sha256": "540ce7faf0eabbadb77507f0fa9101e7bf52b00dad2ebbc67f49a21584ec8b21"
+    },
+    {
+      "byte_identical": true,
+      "classification": "Numerical observations/aggregates; no raw source text",
+      "original_file": "external_source_metrics.csv",
+      "public_path": "results/external/external_source_metrics.csv",
+      "sha256": "e1e311cf3eeeedaa8654e228c2e030eaca3a9f7815954ca51c8fbaf2b8e34501"
+    },
+    {
+      "byte_identical": true,
+      "classification": "Numerical observations/aggregates; no raw source text",
+      "original_file": "structure_sensitivity.csv",
+      "public_path": "results/external/structure_sensitivity.csv",
+      "sha256": "e493546d34c9f6a3ac9d1c3a2a6a963d77ecf4665522351d7d20cd593929cbd4"
+    },
+    {
+      "byte_identical": true,
+      "classification": "Numerical observations/aggregates; no raw source text",
+      "original_file": "mechanism_region_accounting.csv",
+      "public_path": "results/external/mechanism_region_accounting.csv",
+      "sha256": "e618e674c5d6882f5a5d3da65dab120d86e982b7685c04836ddb8c028b6dd468"
+    },
+    {
+      "byte_identical": true,
+      "classification": "Numerical observations/aggregates; no raw source text",
+      "original_file": "vocabulary_feature_occurrences.csv",
+      "public_path": "results/external/vocabulary_feature_occurrences.csv",
+      "sha256": "18aa3bc2853a4f0717f9afa4e92b6455bfead4327f90705d512bb7a53fe027fe"
+    },
+    {
+      "byte_identical": true,
+      "classification": "Numerical observations/aggregates; no raw source text",
+      "original_file": "mechanism_statistics.json",
+      "public_path": "results/external/mechanism_statistics.json",
+      "sha256": "bbb09347ad8b273de37affdafc891c024e30bfd2f808f450014f8521c90ea4fd"
+    }
+  ],
+  "omission_effect": "No measured numerical observation, family, source, or regression is excluded. Public metadata is a declared projection and counts/aggregate files stay byte-identical.",
+  "omissions": [
+    "Raw generated fixture data and phrase-bearing generator kept private by explicit owner decision",
+    "Original tokenizer JSONs and vocabularies",
+    "Raw MCP/A2A schemas and SWE-agent trace objects",
+    "Complete conversations and token-byte/ID streams",
+    "Private audit/outreach notes, local paths, runtime install logs and archives"
+  ]
+}

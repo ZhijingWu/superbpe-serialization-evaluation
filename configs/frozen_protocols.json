@@ -1,0 +1,54 @@
+{
+  "external": {
+    "bootstrap": {
+      "resamples": 10000,
+      "seed": 6198,
+      "source_composition_diagnostic": "Resample three sources as units; do not treat this as deployment inference",
+      "source_weights": "Equal",
+      "units": "Recorded coarse schema groups and benchmark tasks within source"
+    },
+    "locked_at_utc": "2026-10-13T16:04:20.694521+00:00",
+    "original_lock_sha256": "752fffa18a6f2e6f48778e6e4bee8110d6ded33588581fe4ef2c39fe7e491ecc",
+    "original_script_hashes": {
+      "analyze_external.py": "400fc6e243a1f1d0c09ca8ff1a5ed9f0b9de39dd0cdd5da20224a58a962f9001",
+      "analyze_mechanism.py": "338c96cd912814ae057c4ad9464b588b40699623482112b38fd937c2f8d67d82",
+      "build_external.py": "7a8ce7e45c6edbc1d2b4143acc544437ae5c9ba90938598b00ce8031b45d98fc",
+      "evaluate_external.py": "859b8b7ae7df776bc03150671b19cf6cbd97eb7b590e0e27f32c86cf96efc01c",
+      "lock_external.py": "f09db2d0c3e87088749fe7fec3ae10d539fd2ccf92f2b2ef6d8e9e75117407e6",
+      "pilot_helpers.py": "0d0e43fc4b9fc2322a8926545fde6c70dbc3563dda558a89e992986f5c156f44"
+    },
+    "postcount_colon_inventory": "Descriptive static audit, no additional encoding",
+    "principal_summary": "Equal-source mean D; separate external descriptive analysis",
+    "records": 208,
+    "source_clusters": {
+      "a2a": 8,
+      "mcp": 10,
+      "sweagent": 2
+    }
+  },
+  "synthetic": {
+    "bootstrap": {
+      "equal_category_weight": true,
+      "percentile_interval": [
+        0.025,
+        0.975
+      ],
+      "resamples": 10000,
+      "seed": 6198,
+      "unit": "Whole recorded schema lineage within category, retain all evaluation siblings"
+    },
+    "development_families": 20,
+    "evaluation_families": 100,
+    "generation_seed": 1729,
+    "locked_at_utc": "2026-10-13T15:10:02.255492+00:00",
+    "original_lock_sha256": "2de07df761ac0a24c0aee817dcfea66c3ca7f77f72b5df1442f0629de8d018fc",
+    "original_script_hashes": {
+      "analyze.py": "5a16978f7c7badb4b978235fb1ba0b11bc1efae8ba157420f014b9f4804727dc",
+      "evaluate_tokenizers.py": "0d0e43fc4b9fc2322a8926545fde6c70dbc3563dda558a89e992986f5c156f44",
+      "freeze_protocol.py": "742f5f09fd782a65d8db7c2f8b45d423e76db1fd06e82165e6d0fe517b922a65",
+      "generate_fixtures.py": "0bbe0494b5d0348f04ede890574f3f1b7e2643a51c9fae26ccd864f9cfdf9bbc"
+    },
+    "practical_margin": 0.05,
+    "primary_contrast": "G_indent2 - G_compact"
+  }
+}
